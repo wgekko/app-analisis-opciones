@@ -14,36 +14,23 @@ Una plataforma analítica e interactiva de grado institucional para el modelado,
 ## Estructura del Proyecto
 
 ├── app.py                      # Interfaz principal de la terminal (Streamlit)
-
 ├── requirements.txt            # Dependencias del sistema
-
 ├── data/
 │   └── yfinance_provider.py    # Proveedor y caché de datos de mercado
-
 ├── pricing/
 │   ├── black_scholes.py        # Modelo analítico y motor de Griegas (1° y 2° orden)
-
 │   ├── classic_montecarlo.py   # Simulación estocástica clásica
-
 │   ├── binomial.py             # Modelo de redes binomiales Cox-Ross-Rubinstein
-
 │   └── montecarlo.py           # Simulador cuántico (Quantum Monte Carlo Pricer)
-
 ├── ml_models/
 │   ├── iv_predictor.py         # Clasificador direccional de Volatilidad
-
 │   ├── iv_regressor.py         # Regresor para estimación cuantitativa de IV
-
 │   └── anomaly_detector.py     # Filtro estadístico y Z-Score para arbitraje
-
 ├── components/
 │   ├── charts.py               # Renderizado de superficies 3D y curvas de Payoff (Plotly)
-
 │   └── tables.py               # Formateo avanzado y mapas de calor interactivos
-
 └── strategies/
-    ├── builder.py              # Estructuras lógicas de estrategias multi-leg
-    
+    ├── builder.py              # Estructuras lógicas de estrategias multi-leg    
     └── payoff.py               # Calculador analítico de perfiles de riesgo
 
 
@@ -55,6 +42,10 @@ cd quant-options-analytics
 
 video demo 
 
+
+
+
+https://github.com/user-attachments/assets/e8738bf2-0145-44ed-8948-6c0b4ec11643
 
 
 
