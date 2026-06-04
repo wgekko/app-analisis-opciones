@@ -12,7 +12,7 @@ Una plataforma analítica e interactiva de grado institucional para el modelado,
 **Quantum Monte Carlo (QMC):** Módulo experimental que utiliza **Qiskit** para la preparación de estados cuánticos a partir de distribuciones lognormales, simulando el cálculo del valor esperado del *payoff* de opciones de manera nativa en superposición.
 
 ## Estructura del Proyecto
-
+´´´text
 ├── app.py                      # Interfaz principal de la terminal (Streamlit)
 ├── requirements.txt            # Dependencias del sistema
 ├── data/
@@ -32,6 +32,17 @@ Una plataforma analítica e interactiva de grado institucional para el modelado,
 └── strategies/
     ├── builder.py              # Estructuras lógicas de estrategias multi-leg
     └── payoff.py               # Calculador analítico de perfiles de riesgo
-
-git clone [https://github.com/tu-usuario/quant-options-analytics.git](https://github.com/tu-usuario/quant-options-analytics.git)
+´´´
+git clone [https://github.com/wgekko/app-analisis-opciones.git](https://github.com/wgekko/app-analisis-opciones.git)
 cd quant-options-analytics
+
+
+video demo 
+
+
+
+
+
+
+
+
